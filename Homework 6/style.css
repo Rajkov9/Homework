@@ -1,0 +1,135 @@
+html{
+    background-color: gray;
+}
+header{
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2{
+    color: white;
+}
+
+h1{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navigation li {
+    cursor:crosshair;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+table{
+    border: 1px solid black;
+    border-spacing: 5px;
+}
+
+tbody{
+   background-color: rgb(223, 9, 159);
+}
+
+th{
+    padding: 5px; 
+}
+
+td{
+    background-color: darkgray;
+    padding: 5px;
+}
+
+.mainSection { 
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.wrap{
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.plantImage{
+    background-image: url('https://www.grimmsautomovation.com/blog/wp-content/uploads/2024/05/truck-1024x585.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.plantImageTwo{
+    background-image: url('https://i.ytimg.com/vi/3-Cuc4jn3zI/maxresdefault.jpg');
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.plantImageThree{
+    background-image: url('https://5.imimg.com/data5/SELLER/Default/2021/2/AB/NN/VL/121970607/commercial-truck-repairing-services-500x500.jpg');
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.register{
+    background-color:  rgb(0, 204, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.logIn{
+    background-color: white;
+    color:  rgb(0, 204, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.parent{
+    display: inline-flex;
+}
+
+.childOne{
+    margin: 100x;
+}
+
+.childTwo{
+    margin: 50px;
+}
